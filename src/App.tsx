@@ -9,6 +9,7 @@ import {
   Alert,
   Space,
   Spin,
+  FloatButton,
   ConfigProvider,
 } from "antd";
 import {
@@ -272,6 +273,7 @@ Format: ${values.format}
           </Space>
         </Content>
       </Layout>
+      <FloatButton.BackTop duration={400} />
     </ConfigProvider>
   );
 };
